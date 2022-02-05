@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
+import { useAppSelector } from './app/hooks';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const count = useAppSelector((state) => state.counter.value);
+
   return (
     <div className='App'>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is: {count}
-      </button>
+      <button>count is: {count}</button>
     </div>
   );
 }
