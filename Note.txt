@@ -1,0 +1,25 @@
+Let’s Learn Modern Redux! (with Mark Erikson) — Learn With Jason
+(https://www.youtube.com/watch?v=9zySeP5vH9c&t=1576s)
+
+https://github.com/learnwithjason/lets-learn-redux-toolkit
+https://github.com/Annie-Huang/lets-learn-redux-toolkit
+
+https://github.com/vitejs/vite/tree/main/packages/create-vite
+https://redux-toolkit.js.org/introduction/getting-started
+https://github.com/reduxjs/cra-template-redux-typescript
+
+https://redux-toolkit.js.org/tutorials/typescript
+
+=========================================================================================
+
+PS C:\react> npm create vite@latest lets-learn-redux-toolkit -- --template react-ts
+PS C:\react\lets-learn-redux-toolkit> npm install
+PS C:\react\lets-learn-redux-toolkit> npm run dev
+
+PS C:\react\lets-learn-redux-toolkit> npm i @reduxjs/toolkit react-redux axios
+
+--------------------------------
+
+PS C:\react> npx create-react-app lets-learn-redux-toolkit1 --template typescript --use-npm
+
+This is already have the final the whole redux setup with typescript, so  i will create a "lets-learn-redux-toolkit1" to code along instead.
