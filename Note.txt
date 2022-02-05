@@ -22,4 +22,5 @@ PS C:\react\lets-learn-redux-toolkit> npm i @reduxjs/toolkit react-redux axios
 
 PS C:\react> npx create-react-app lets-learn-redux-toolkit1 --template typescript --use-npm
 PS C:\react\lets-learn-redux-toolkit1> npm install axios
+PS C:\react\lets-learn-redux-toolkit1> npm install @reduxjs/toolkit
 
