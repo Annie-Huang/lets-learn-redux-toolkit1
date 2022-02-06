@@ -13,7 +13,7 @@ interface Breed {
 export const apiSlice = createApi({
   reducerPath: 'api',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://www.thedogapi.com/v1',
+    baseUrl: 'https://api.thedogapi.com/v1',
     prepareHeaders(headers) {
       headers.set('x-api-key', DOGS_API_KEY);
       return headers;
@@ -25,3 +25,5 @@ export const apiSlice = createApi({
     }),
   }),
 });
+
+export const { useFetchBreedsQuery } = apiSlice;
