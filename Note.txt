@@ -3,12 +3,14 @@ Let’s Learn Modern Redux! (with Mark Erikson) — Learn With Jason
 
 https://github.com/learnwithjason/lets-learn-redux-toolkit
 https://github.com/Annie-Huang/lets-learn-redux-toolkit
+https://www.thedogapi.com/
 
 https://github.com/vitejs/vite/tree/main/packages/create-vite
 https://redux-toolkit.js.org/introduction/getting-started
 https://github.com/reduxjs/cra-template-redux-typescript
 
 https://redux-toolkit.js.org/tutorials/typescript
+https://redux-toolkit.js.org/rtk-query/overview
 
 =========================================================================================
 
@@ -24,3 +26,11 @@ PS C:\react> npx create-react-app lets-learn-redux-toolkit1 --template typescrip
 PS C:\react\lets-learn-redux-toolkit1> npm install axios
 PS C:\react\lets-learn-redux-toolkit1> npm install @reduxjs/toolkit
 PS C:\react\lets-learn-redux-toolkit1> npm install react-redux
+
+-----------------------------------
+
+Over the last couple years, the React community has come to realize that "data fetching and caching" is
+really a different set of concerns than "state management".
+
+RTK Query takes inspiration from other tools that have pioneered solutions for data fetching,
+like Apollo Client, React Query, Urql, and SWR, but adds a unique approach to its API design:
