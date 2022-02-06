@@ -34,3 +34,13 @@ really a different set of concerns than "state management".
 
 RTK Query takes inspiration from other tools that have pioneered solutions for data fetching,
 like Apollo Client, React Query, Urql, and SWR, but adds a unique approach to its API design:
+
+---------------------
+
+On page load -> default fetch 10 dogs
+-> Select 5 in the drop down to fetch 5 dogs
+-> Select 10 in the drop down to fetch 10 dogs again
+======> You can see in the net work it doesn't call two files for the limit=10 because it's already cache (Note01, 02 pic)
+======> After a file you will see we auto clean the cache that we no longer use too (Note 03 pic)
+
+
